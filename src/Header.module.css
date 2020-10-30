@@ -1,0 +1,152 @@
+
+ .header{
+     margin-top: 20px;
+     border-radius: 10px;
+     box-shadow: 0 0 10px 5px black;
+    height: 500px;
+ }
+
+ button{
+   background: transparent;
+    float: right;
+    width: 100px;
+    height: 50px;
+    font-size:larger;
+    font-weight: bolder;
+    border: transparent;
+    margin: 10px;
+    border-radius: 50px;
+
+ }
+
+
+.sidebar{
+   height: 100%;
+   width:120px;
+   background-color: black;
+   position:absolute;
+   float:left;
+   
+}
+
+.title{
+   justify-content: center;
+   font-size: 20px;
+   display: grid;
+   grid-row-gap: 8px;
+   color:white;
+}
+
+a{
+   color: white;
+  margin-bottom: 20px;
+}
+a:hover{
+   color: white;
+}
+
+.titles{
+   margin-top: 10px;
+}
+
+
+@media only screen and (max-width:360px){
+   .sidebar{
+      width:80px;
+   }
+   .title{
+      font-size: 12px;
+   }
+}
+
+img{
+   max-width:100%; 
+    height: auto;
+    filter:blur(3px);
+    -o-filter:blur(3px);
+    -ms-filter:blur(3px);
+    -moz-filter:blur(3px);
+    -webkit-filter:blur(3px);
+    padding-left: 22%;
+   
+}
+.home{
+   display: grid;
+}
+ .row{
+    display: grid;
+    grid-gap: 10px;
+    grid-column-gap: 100px;
+ }
+
+ .Img{
+    float: right;
+ }
+
+
+ .text{
+    position: absolute;
+    top:10px;
+    text-align: center;
+    left: 27%;
+    margin:4px;
+    color:white ;
+
+ }
+
+ .text h4{
+    color: rgb(224, 217, 217);
+    font-size: 1rem;
+ }
+
+ .text h1{
+    font-size: 2rem;
+    font-weight: bold;
+ }
+
+ .text h5{
+    font-size: 1rem ;
+    color: rgb(224, 217, 217);
+ }
+.myImage {
+   width: 50px;
+   height: 50px;
+   border-radius:50%;
+  background-color: rgb(202, 109, 109);
+  padding-left: 20px;
+}
+
+ 
+@media (min-width: 600px) {
+   img {
+     width: 1520px;
+     height: 500px;
+     padding-left:120px;
+   }
+
+   .text{
+      top:110px;
+      left:38%;
+   }
+
+   .text h4{
+      color: rgb(224, 217, 217);
+      font-size: 1.7rem;
+   }
+  
+   .text h1{
+      font-size: 3rem;
+      font-weight: bold;
+   }
+  
+   .text h5{
+      font-size: 1.3rem ;
+      color: rgb(224, 217, 217);
+   }
+   .myImage{
+      width: 80px;
+      height: 80px;;
+   }
+   
+ }
+
