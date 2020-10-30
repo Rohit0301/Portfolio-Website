@@ -1,7 +1,8 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
 import classes from './Header.module.css';
 import back from './background.jpg';
+
+import 'bootstrap/dist/css/bootstrap.css';
 import { Button,row,col } from 'react-bootstrap';
 import Grid from '@material-ui/core/Grid';
 
@@ -12,7 +13,7 @@ const Header = () =>{
              <div className={classes.sidebar}>
              
                 <div className={classes.title}>
-                  <span className={classes.titles}>    
+             
                 
                          
                     <div>
@@ -23,20 +24,15 @@ const Header = () =>{
                     </div>
                     <br></br>
                     <br></br>
-                    <a href="" className={classes.titles}>Home</a>
-                    </span>
-                    <span className={classes.titles}>    
-                    <a href="" className={classes.titles}>About me</a>
-                    </span>
-                    <span className={classes.titles}>    
-                    <a href="" className={classes.titles}>What I do</a>
-                    </span >
-                    <span className={classes.titles}>    
-                    <a href="" className={classes.titles}>Resume</a>
-                    </span>
-                    <span className={classes.titles}>    
-                    <a href="" className={classes.titles}>Connect</a>
-                    </span>
+                    <a href="#" >Home</a>    
+                    <a href="#" >About me</a>
+                   
+                    <a href="#" >What I do</a>
+                    
+                    <a href="#" >Resume</a>
+                     
+                    <a href="#" >Connect</a>
+                  
                  </div>
               </div>
               <div className={classes.Img}>
