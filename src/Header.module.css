@@ -115,6 +115,11 @@ img{
   background-color: rgb(202, 109, 109);
   padding-left: 20px;
 }
+div.myImage{
+   background-image: url('myImageS.jpeg');
+}
+
+
 
  
 @media (min-width: 600px) {
@@ -147,6 +152,9 @@ img{
       width: 80px;
       height: 80px;;
    }
+   div.myImage{
+   background-image: url('myimage.jpeg');
+}
    
  }
 
