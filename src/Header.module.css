@@ -21,7 +21,7 @@
 
 
 .sidebar{
-   height: 1000px;
+   height: 2600px;
    width:120px;
    background-color: black;
    position:absolute;
@@ -110,7 +110,7 @@ img{
   padding-left: 20px;
 }
 div.myImage{
-   background-image: url('myImageS.jpeg');
+   background-image: url('assets/myImageS.jpeg');
 }
 
 
@@ -147,7 +147,7 @@ div.myImage{
       height: 80px;;
    }
    div.myImage{
-   background-image: url('myimage.jpeg');
+   background-image: url('assets/myimage.jpeg');
 }
    
  }
