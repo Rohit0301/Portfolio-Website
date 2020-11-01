@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Sidebar.module.css';
-
+import edu from './Education';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Button,row,col } from 'react-bootstrap';
 import Grid from '@material-ui/core/Grid';
@@ -14,6 +14,7 @@ const Sidebar = () =>{
     
        
                 <div className={classes.title}>    
+                <br></br>
                    <div className={classes.myImage}>
                    
                       
@@ -21,12 +22,14 @@ const Sidebar = () =>{
                  <span>Rohit Jain</span>
                     <br></br>
                     <br></br>
+                    <br></br>
+                    <br></br>
                     <a href="#" >Home</a>    
                     <a href="#" >About me</a>
                    
-                    <a href="#" >What I do</a>
+                    <a href="#" >Competence</a>
                     
-                    <a href="#" >Resume</a>
+                    <a href="#" >Education</a>
                      
                     <a href="#" >Connect</a>
                   

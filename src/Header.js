@@ -13,9 +13,10 @@ const Header = () =>{
               <div className={classes.Img}>
                   <img src={back}/>
                   <div className={classes.text}>
-                        <h4>Welcome</h4>
+                        <h3>Welcome</h3>
                         <h1>I'm Rohit Jain</h1>
                         <h5>Web developer/Competitive Programmer</h5>
+                        <h5>1759 ratings on codechef</h5>
                   </div>
               </div>
 

@@ -9,101 +9,13 @@
       color: rgb(224, 217, 217);
   }
   
-  .head h3{
-      position: absolute;
-      top:670px;
-      font-size: 18px;
-
-      font-weight: 700;   
+h3{
+     
+      font-size:20px;
+      margin-left : 15px;
+      
   }
 
-  .Img1{
-    background-image: url('assets/javaS.jpg');
-   width: 120px;
-   height: 100px;
-   border-radius: 12px;
-   box-shadow: 0 0 10px black;
-   
-  }
-  .Img2{
-    background-image: url('assets/flS.jpg');
- width: 150px;
- height: 100px;
- border-radius: 12px;
-   box-shadow: 0 0 10px black;
-  }
-  .Img3{
-    background-image: url('assets/htmlS.jpg');
-    width: 120px;
-    height: 100px;
-    border-radius: 12px;
-   box-shadow: 0 0 10px black;
-   }
-   .Img4{
-    background-image: url('assets/cssS.jpg');
-  width: 150px;
-  height: 100px;
-  border-radius: 12px;
-   box-shadow: 0 0 10px black;
-   }
-  
-   .Img5{
-    background-image: url('assets/bootstrapS.jpg');
-    width: 120px;
-    height: 100px;
-    border-radius: 12px;
-   box-shadow: 0 0 10px black;
-   }
-   .Img6{
-    background-image: url('assets/uiS.png');
-  width: 150px;
-  height: 100px;
-  border-radius: 12px;
-   box-shadow: 0 0 10px black;
-   }
-  
-   .Img7{
-    background-image: url('assets/jsS.jpg');
-    width: 120px;
-    height: 100px;
-    border-radius: 12px;
-   box-shadow: 0 0 10px black;
-   }
-   .Img8{
-    background-image: url('assets/reactS.png');
-  width: 150px;
-  height: 100px;
-  border-radius: 12px;
-   box-shadow: 0 0 10px black;
-   }
-   .Img9{
-    background-image: url('assets/dsS.png');
-    width: 120px;
-    height: 100px;
-    border-radius: 12px;
-   box-shadow: 0 0 10px black;
-   }
-   .Img10{
-    background-image: url('assets/algoS.png');
-  width: 150px;
-  height: 100px;
-  border-radius: 12px;
-   box-shadow: 0 0 10px black;
-   }
-   .Img11{
-    background-image: url('assets/sqlS.png');
-    width: 120px;
-    height: 100px;
-    border-radius: 12px;
-   box-shadow: 0 0 10px black;
-   }
-   .Img12{
-    background-image: url('assets/gitS.png');
-  width: 150px;
-  height: 100px;
-  border-radius: 12px;
-   box-shadow: 0 0 10px black;
-   }
    
   
   @media (min-width: 600px) {
@@ -112,97 +24,11 @@
           color: rgb(224, 217, 217);
       }
       
-      .head h3{
-          position: absolute;
-          top:1010px;
+      h3{
+          
           font-size: 30px;
-         
-          font-weight: 700;   
+         margin: 5px;
       }
-     
-      .Img1{
-        background-image: url('assets/java.jpg');
-        width: 250px;
-        height: 250px;
-        border-radius: 20px;
-        box-shadow: 0 0 30px black;
-       }
-       .Img2{
-      background-image: url('assets/fl.jpg');
-      width: 250px;
-      height: 250px;
-      border-radius: 20px;
-        box-shadow: 0 0 30px black;
-       }
-       .Img3{
-        background-image: url('assets/html.jpg');
-        width: 250px;
-        height: 250px;
-        border-radius: 20px;
-        box-shadow: 0 0 30px black;
-       }
-       .Img4{
-        background-image: url('assets/css.jpg');
-      width: 250px;
-      height: 250px;
-      border-radius: 20px;
-        box-shadow: 0 0 30px black;
-       }
-       .Img5{
-        background-image: url('assets/bootstrap.jpg');
-        width: 250px;
-        height: 250px;
-        border-radius: 20px;
-        box-shadow: 0 0 30px black;
-       }
-       .Img6{
-        background-image: url('assets/ui.png');
-      width: 250px;
-      height: 250px;
-      border-radius: 20px;
-        box-shadow: 0 0 30px black;
-       }
-       .Img7{
-        background-image: url('assets/js.jpg');
-        width: 250px;
-        height: 250px;
-        border-radius: 20px;
-        box-shadow: 0 0 30px black;
-       }
-       .Img8{
-        background-image: url('assets/react.png');
-      width: 250px;
-      height: 250px;
-      border-radius: 20px;
-        box-shadow: 0 0 30px black;
-       }
-       .Img9{
-        background-image: url('assets/ds.png');
-        width: 250px;
-        height: 250px;
-        border-radius: 20px;
-        box-shadow: 0 0 30px black;
-       }
-       .Img10{
-        background-image: url('assets/algo.png');
-      width: 250px;
-      height: 250px;
-      border-radius: 20px;
-        box-shadow: 0 0 30px black;
-       }
-       .Img11{
-        background-image: url('assets/sql.png');
-        width: 250px;
-        height: 250px;
-        border-radius: 20px;
-        box-shadow: 0 0 30px black;
-       }
-       .Img12{
-        background-image: url('assets/git.png');
-      width: 250px;
-      height: 250px;
-      border-radius: 20px;
-        box-shadow: 0 0 30px black;
-       }
+    
   }
   

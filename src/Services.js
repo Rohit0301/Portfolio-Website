@@ -6,6 +6,23 @@ import classes from './Services.module.css';
 // import CardContent from '@material-ui/core/CardContent';
 // import CardMedia from '@material-ui/core/CardMedia';
 // import Typography from '@material-ui/core/Typography';
+import LinearProgress from '@material-ui/core/LinearProgress';
+import { makeStyles, withStyles } from '@material-ui/core/styles';
+const BorderLinearProgress = withStyles((theme) => ({
+  root: {
+    height: 10,
+    width:'auto',
+    margin:5,
+    borderRadius: 5,
+  },
+  colorPrimary: {
+    backgroundColor: theme.palette.grey[theme.palette.type === 'light' ? 200 : 700],
+  },
+  bar: {
+    borderRadius: 5,
+    backgroundColor: '#1a90ff',
+  },
+}))(LinearProgress);
 
 const About = () =>{
     return (
@@ -15,118 +32,70 @@ const About = () =>{
   
     </div>
     <br></br>
-    <Grid container spacing={2}>
-        <Grid item xs={2} sm={3}>
+    <Grid container spacing={3} justify="center" alignItems="center">
+        <Grid item xs={12} sm={4}>
+      <h3>JAVA</h3>
+        <BorderLinearProgress variant="determinate" value={93} />
         </Grid>
-      <Grid item xs={4}>
-        <Grid container>
-        <div className={classes.Img1}>
-      
-        </div>
+        <Grid item xs={12} sm={4}>
+      <h3>FLASK</h3>
+        <BorderLinearProgress variant="determinate" value={68} />
         </Grid>
-      </Grid>
-      <Grid item xs={4}>
-      <Grid container>
-      <div className={classes.Img2}>
+        <Grid item xs={12} sm={4}>
+      <h3>MYSQL</h3>
+        <BorderLinearProgress variant="determinate" value={87} />
+        </Grid>
+    </Grid>
 
-        </div>
+    <Grid container spacing={3} justify="center" alignItems="center">
+        <Grid item xs={12} sm={4}>
+      <h3>HTML5</h3>
+        <BorderLinearProgress variant="determinate" value={89} />
         </Grid>
-      </Grid>
-     </Grid>
-     <Grid container spacing={2}>
-        <Grid item xs={2} sm={3}>
+        <Grid item xs={12} sm={4}>
+      <h3>CSS3</h3>
+        <BorderLinearProgress variant="determinate" value={72} />
         </Grid>
-      <Grid item xs={4}>
-        <Grid container>
-        <div className={classes.Img3}>
+        <Grid item xs={12} sm={4}>
+      <h3>BOOTSTRAP4</h3>
+        <BorderLinearProgress variant="determinate" value={81} />
+        </Grid>
+    </Grid>
 
-        </div>
+    <Grid container spacing={3} justify="center" alignItems="center">
+        <Grid item xs={12} sm={4}>
+      <h3>JAVASCRIPT</h3>
+        <BorderLinearProgress variant="determinate" value={59} />
         </Grid>
-      </Grid>
-      <Grid item xs={4}>
-      <Grid container>
-      <div className={classes.Img4}>
+        <Grid item xs={12} sm={4}>
+      <h3>REACT</h3>
+        <BorderLinearProgress variant="determinate" value={48} />
+        </Grid>
+        <Grid item xs={12} sm={4}>
+      <h3>MATERIAL-UI</h3>
+        <BorderLinearProgress variant="determinate" value={64} />
+        </Grid>
+    </Grid>
 
-        </div>
+    <Grid container spacing={3} justify="center" alignItems="center">
+        <Grid item xs={12} sm={4}>
+      <h3>DATA STRUCTURE</h3>
+        <BorderLinearProgress variant="determinate" value={89} />
         </Grid>
-      </Grid>
-     </Grid>
-     <Grid container spacing={2}>
-        <Grid item xs={2} sm={3}>
+        <Grid item xs={12} sm={4}>
+      <h3>ALGORITHMS</h3>
+        <BorderLinearProgress variant="determinate" value={85} />
         </Grid>
-      <Grid item xs={4}>
-        <Grid container>
-        <div className={classes.Img5}>
-
-        </div>
+        <Grid item xs={12} sm={4}>
+      <h3>GITHUB</h3>
+        <BorderLinearProgress variant="determinate" value={80} />
         </Grid>
-      </Grid>
-      <Grid item xs={4}>
-      <Grid container>
-      <div className={classes.Img6}>
-
-        </div>
-        </Grid>
-      </Grid>
-     </Grid>
-     <Grid container spacing={2}>
-        <Grid item xs={2} sm={3}>
-        </Grid>
-      <Grid item xs={4}>
-        <Grid container>
-        <div className={classes.Img7}>
-
-        </div>
-        </Grid>
-      </Grid>
-      <Grid item xs={4}>
-      <Grid container>
-      <div className={classes.Img8}>
-
-        </div>
-        </Grid>
-      </Grid>
-     </Grid>
-     <Grid container spacing={2}>
-        <Grid item xs={2} sm={3}>
-        </Grid>
-      <Grid item xs={4}>
-        <Grid container>
-        <div className={classes.Img9}>
-
-        </div>
-        </Grid>
-      </Grid>
-      <Grid item xs={4}>
-      <Grid container>
-      <div className={classes.Img10}>
-
-        </div>
-        </Grid>
-      </Grid>
-     </Grid>
-     <Grid container spacing={2}>
-        <Grid item xs={2} sm={3}>
-        </Grid>
-      <Grid item xs={4}>
-        <Grid container>
-        <div className={classes.Img11}>
-
-        </div>
-        </Grid>
-      </Grid>
-      <Grid item xs={4}>
-      <Grid container>
-      <div className={classes.Img12}>
-
-        </div>
-        </Grid>
-      </Grid>
-     </Grid>
+    </Grid>
+    
     </div>
         
     );
 }
-// bsgfkf
+
 
 export default About;

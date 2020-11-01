@@ -15,7 +15,7 @@ const About = () =>{
       <Grid item xs={8} sm={8}>
         <Grid container>
         <p className={classes.text}>
-                 <span>I'm <b>Rohit Jain</b>, a Web Developer and Competitive Programmer. </span>
+                 <span>I'm <b>Rohit Jain</b>, a Web Developer and a Competitive Programmer. </span>
                   Competitive Programming Lead at DSC OIST,Bhopal.
                  Demonstrated working knowledge of Object-Oriented Design/Analysis and web development.
                  Develop and debug source code,Great understanding of Data Structures and Algorithms, 
