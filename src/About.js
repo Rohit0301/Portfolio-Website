@@ -7,14 +7,12 @@ const About = () =>{
         <div>
     <div className={classes.head}>
     <h1>ABOUT ME</h1>
-    <h3>Kno<span>w Me M</span>ore</h3>
+    {/* <h3>Kno<span>w Me M</span>ore</h3> */}
     </div>
     <br></br>
     <Grid container spacing={3}>
-        <Grid item xs={1}>
-
-        </Grid>
-      <Grid item xs={8}>
+      
+      <Grid item xs={8} sm={8}>
         <Grid container>
         <p className={classes.text}>
                  <span>I'm <b>Rohit Jain</b>, a Web Developer and Competitive Programmer. </span>
@@ -25,7 +23,7 @@ const About = () =>{
              </p>
         </Grid>
       </Grid>
-      <Grid item xs={3}>
+      <Grid item xs={4} sm={4}>
           <div className={classes.bio}>
          <p> <b>Name :</b> Rohit Jain</p>
          <p> <b>Place :</b> <span>Nepanagar</span></p>
@@ -33,17 +31,8 @@ const About = () =>{
           </div>
       </Grid>
      </Grid>
-    
-        <div classes="row">
-           <div classes="col-md-7 col-7 alert alert-primary">
-            
-           </div>
-           <div classes="col-md-4 col-4">
-               
-           </div>
-        </div>
-    
     </div>
+   
     );
 }
 

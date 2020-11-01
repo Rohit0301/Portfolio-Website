@@ -12,11 +12,11 @@ const About = () =>{
         <div>
     <div className={classes.head}>
     <h1>Competence</h1>
-    <h3>What I Know</h3>
+  
     </div>
     <br></br>
-    <Grid container spacing={8}>
-        <Grid item xs={3}>
+    <Grid container spacing={2}>
+        <Grid item xs={2} sm={3}>
         </Grid>
       <Grid item xs={4}>
         <Grid container>
@@ -33,8 +33,8 @@ const About = () =>{
         </Grid>
       </Grid>
      </Grid>
-     <Grid container spacing={8}>
-        <Grid item xs={3}>
+     <Grid container spacing={2}>
+        <Grid item xs={2} sm={3}>
         </Grid>
       <Grid item xs={4}>
         <Grid container>
@@ -51,8 +51,8 @@ const About = () =>{
         </Grid>
       </Grid>
      </Grid>
-     <Grid container spacing={8}>
-        <Grid item xs={3}>
+     <Grid container spacing={2}>
+        <Grid item xs={2} sm={3}>
         </Grid>
       <Grid item xs={4}>
         <Grid container>
@@ -69,8 +69,8 @@ const About = () =>{
         </Grid>
       </Grid>
      </Grid>
-     <Grid container spacing={8}>
-        <Grid item xs={3}>
+     <Grid container spacing={2}>
+        <Grid item xs={2} sm={3}>
         </Grid>
       <Grid item xs={4}>
         <Grid container>
@@ -87,8 +87,8 @@ const About = () =>{
         </Grid>
       </Grid>
      </Grid>
-     <Grid container spacing={8}>
-        <Grid item xs={3}>
+     <Grid container spacing={2}>
+        <Grid item xs={2} sm={3}>
         </Grid>
       <Grid item xs={4}>
         <Grid container>
@@ -105,8 +105,8 @@ const About = () =>{
         </Grid>
       </Grid>
      </Grid>
-     <Grid container spacing={8}>
-        <Grid item xs={3}>
+     <Grid container spacing={2}>
+        <Grid item xs={2} sm={3}>
         </Grid>
       <Grid item xs={4}>
         <Grid container>
