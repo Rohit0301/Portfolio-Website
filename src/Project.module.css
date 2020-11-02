@@ -1,0 +1,22 @@
+.head {
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .head h1{
+      font-size: 48px;
+     
+      color: rgb(224, 217, 217);
+  }
+  
+  
+  @media (min-width: 600px) {
+      .head h1{
+          font-size: 90px;
+          color: rgb(224, 217, 217);
+      }
+      
+     
+      
+  }
+  
