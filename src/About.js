@@ -7,7 +7,7 @@ const About = () =>{
         <div>
     <div className={classes.head}>
     <h1>ABOUT ME</h1>
-    {/* <h3>Kno<span>w Me M</span>ore</h3> */}
+
     </div>
     <br></br>
     <Grid container spacing={3}>

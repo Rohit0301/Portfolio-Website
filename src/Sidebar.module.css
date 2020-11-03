@@ -37,7 +37,15 @@
     color:white;
  }
 
- 
+ .link{
+   color: white;
+   cursor: pointer;
+}
+
+.link:hover{
+   color:rgb(43, 170, 243);
+}
+
   
  @media (min-width: 600px) {
     .myImage{
