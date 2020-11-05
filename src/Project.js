@@ -9,6 +9,8 @@ import Box from '@material-ui/core/Box';
 import { grey } from '@material-ui/core/colors';
 import classes from './Project.module.css';
 import Button from '@material-ui/core/Button';
+import { Section } from 'react-scroll-section';
+import ShowMoreText from 'react-show-more-text';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -60,8 +62,8 @@ export default function SimpleTabs() {
   };
 
   return (
-      <div>
-      <div className={classes.head}>
+      <Section id="project">
+              <div className={classes.head}>
         <h1>PROJECTS</h1>
       </div>
       <br></br>
@@ -74,8 +76,22 @@ export default function SimpleTabs() {
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        <center><h1><b>GetADoc</b></h1></center>
-        <h3> This is a website where you can take an appointment of any doctor in your locality or other places according to your problem.The doctor will give you a particular slot for visiting to their clinic or home visit at your place. This is a user-friendly website with simple UI. You don't have to wait for hours in queue for getting an appointment. Online Scheduling offers patients the ability to book appointment even when doctor's practice in closed. This system operate 24X7. This website helps to reduce burdensome administrative tasks for staff. It help staff to provide a better experience for patients. It gives benefit to both doctors as well as patients.</h3>
+        <h1><b>GetADoc</b></h1>
+        <ShowMoreText
+                lines={2}
+                more='Show more'
+                less='Show less'
+                className='content-css'
+                anchorClass='my-anchor-css-class'
+              expanded={false}
+                width={1024}
+            >
+        <h5> This is a website where you can take an appointment of any doctor in your locality or other places according to your problem
+          .The doctor will give you a particular slot for visiting to their clinic or home visit at your place. 
+          This is a user-friendly website with simple UI. You don't have to wait for hours in queue for getting an appointment.
+           Online Scheduling offers patients the ability to book appointment even when doctor's practice in closed. This system operate 24X7.
+            This website helps to reduce burdensome administrative tasks for staff. It help staff to provide a better experience for patients. 
+            It gives benefit to both doctors as well as patients.</h5></ShowMoreText>
         <center><Button variant="contained" color="secondary"  onClick={(e) => {
       e.preventDefault();
       window.location.href='https://getadoc.herokuapp.com/';
@@ -88,31 +104,32 @@ export default function SimpleTabs() {
             Front-End
        </h2>
         <ul>
-            <li><h3>Html5</h3></li>
-            <li><h3>Css3</h3></li>
-            <li><h3>Bootstrap4</h3></li>
+           <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Bootstrap4</li>
         </ul>
        <h2>
             Backend-End
        </h2>
         <ul>
-            <li><h3>Python-Flask</h3></li>
+            <li>Python-Flask</li>
         </ul>
        <h2>
             DBMS
        </h2>
         <ul>
-            <li><h3>Postgresql</h3></li>
+            <li>Postgresql</li>
         </ul>
        <h2>
             Deployment
        </h2>
         <ul>
-            <li><h3>Heroku</h3></li>
+            <li>Heroku</li>
         </ul>
       </TabPanel>
       
     </div>
-    </div>
+    </Section>
+
   );
 }

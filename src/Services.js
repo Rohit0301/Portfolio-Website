@@ -2,12 +2,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import classes from './Services.module.css';
-// import Card from '@material-ui/core/Card';
-// import CardContent from '@material-ui/core/CardContent';
-// import CardMedia from '@material-ui/core/CardMedia';
-// import Typography from '@material-ui/core/Typography';
 import LinearProgress from '@material-ui/core/LinearProgress';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
+import { Section } from 'react-scroll-section';
 const BorderLinearProgress = withStyles((theme) => ({
   root: {
     height: 10,
@@ -26,7 +23,7 @@ const BorderLinearProgress = withStyles((theme) => ({
 
 const About = () =>{
     return (
-        <div>
+      <Section id="competence">
     <div className={classes.head}>
     <h1>Competence</h1>
   
@@ -92,7 +89,7 @@ const About = () =>{
         </Grid>
     </Grid>
     
-    </div>
+    </Section>
         
     );
 }

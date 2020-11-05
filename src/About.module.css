@@ -1,81 +1,59 @@
 .head {
   text-align: center;
   margin-top: 60px;
+
 }
 
 .head h1{
-    font-size: 48px;
-   
     color: rgb(224, 217, 217);
+    font-size: 48px;
 }
 
-.head h3{
-    position: absolute;
-    top:253px;
-    font-size: 20px;
-    font-weight: 700;   
-}
-.text{
-    font-size:12px;
-    font-weight: 200;
-    margin: 5px;
 
-}
+
 .text b{
     color:rgb(43, 170, 243);
 }
-.text span{
-    font-size:15px;
-    font-weight: 600;
-    margin-bottom: 10px;
+
+.text h4{
+    font-size: medium;
+    margin-left: 10px;
 }
-.bio p{
-    
-}
-.bio{
-    font-size: 13px;
-   
-    padding-bottom: 15px;
-}
+
+
 .bio span{
     color: rgb(43, 170, 243);
-    font-weight: bold;
+  
 }
 @media (min-width: 600px) {
     .head h1{
-        font-size: 90px;
         color: rgb(224, 217, 217);
     }
     
     .head h3{
         position: absolute;
-        top:600px;
-        font-size: 30px;
-        font-weight: 700;   
+         
     }
-    .text{
-    font-size:23px;
-    font-weight: 200;
-}
+    .text h4{
+        font-size: x-large;
+    }
+    
+
 .text b{
     color:rgb(43, 170, 243);
 }
 .text span{
-    font-size:32px;
-    font-weight: 600;
+ 
     margin-bottom: 10px;
 }
-.bio p{
-  
-}
+
 .bio{
-    font-size: 24px;
 
     padding-bottom: 15px;
 }
 .bio span{
     color: rgb(43, 170, 243);
-    font-weight: bold;
+
 }
     
 }

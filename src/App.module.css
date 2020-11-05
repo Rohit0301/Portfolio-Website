@@ -1,1 +1,11 @@
 
+ .link{
+    color: white;
+    cursor: pointer;
+    align-items: center;
+ }
+ 
+ .link:hover{
+    color:rgb(43, 170, 243);
+ }
+

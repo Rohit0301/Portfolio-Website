@@ -1,9 +1,10 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import classes from './Education.module.css';
+import { Section } from 'react-scroll-section';
 const Education = () =>{
     return (
-        <div>
+        <Section id="education">
         <div className={classes.head}>
         <h1>Education</h1>
         </div>
@@ -53,7 +54,7 @@ const Education = () =>{
             </Grid>
          
        </Grid>
-       </div>
+       </Section>
    
     );
 }

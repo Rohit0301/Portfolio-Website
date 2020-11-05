@@ -10,7 +10,9 @@ img{
     -webkit-filter:blur(3px);
 }
 
-
+.img{
+   width:100%;
+}
 
  .text{
     position: absolute;

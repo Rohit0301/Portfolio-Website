@@ -1,8 +1,6 @@
 import React from 'react';
-import { ToastsStore } from 'react-bootstrap';
 import * as emailjs from 'emailjs-com';
 import TextField from '@material-ui/core/TextField';
-import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid'; 
 
@@ -20,14 +18,6 @@ class Feedback extends React.Component {
 
   handleInputChange(event) {
       event.preventDefault();
-      if (event.target.value.length > 2) {
-        this.setState({error:{ helperText: '', error: false }});
-      } else {
-        this.setState({error:{ helperText: 'Invalid format', error: true }});
-      }
-      // const target = event.target;
-      // const name = target.name;
-      // const value = target.value;
       let input = this.state.input;
       input[event.target.name] = event.target.value;
     
@@ -46,30 +36,19 @@ class Feedback extends React.Component {
           input["comment"] = "";
           this.setState({input:input});
     const templateParams = {
-          from_name: this.state.name + " (" + this.state.email + ")",
+          from_name: this.state.input.name + " (" + this.state.input.email + ")",
           to_name:'rj03012002@gmail.com',
-          feedback: this.state.feedback
+          message:this.state.input.comment ,
         };
     emailjs
           .send("service_jfh3cwa", "template_kjr7xz8", templateParams, "user_ry5lSL5sNWJnygCE2Pyib");
-        //   .then(
-        //     function(response) {service_jfh3cwa
-        //         ToastsStore.success("Your message has successfully sent!", {
-        //         position: Toast.POSITION.BOTTOM_CENTER
-        //       });
-        //       console.log("SUCCESS!", response.status, response.text);
-        //     },
-        //     function(err) {
-        //         ToastsStore.error("Your message was not able to be sent");
-        //     }
-        //   );
-    this.setState({
-       input:{}
-        });
-      }
   
+        input["name"] = "";
+        input["email"] = "";
+        input["comment"] = "";
+        this.setState({input:input});
       }
-
+    }
       validate(){
         let input = this.state.input;
         let errors = {};
@@ -129,8 +108,8 @@ class Feedback extends React.Component {
               label="Name" 
               variant="outlined"  
               onChange={this.handleInputChange.bind(this)}
-              value={this.state.name}
-              style={{ width: "100%" ,marginRight:"5px"}}/>
+              value={this.state.input.name}
+              style={{ width: "100%",marginLeft:8}}/>
       <div >{this.state.errors.name}</div>
       </Grid>
    
@@ -140,8 +119,8 @@ class Feedback extends React.Component {
               label="Email"
               variant="outlined" 
               onChange={this.handleInputChange.bind(this)}
-              value={this.state.email}
-              style={{ width: "100%" }}/>
+              value={this.state.input.email}
+              style={{ width: "100%",marginLeft:8 }}/>
             
               <div >{this.state.errors.email}</div>
         </Grid>
@@ -155,8 +134,8 @@ class Feedback extends React.Component {
           rows={6}
           variant="outlined"
           onChange={this.handleInputChange.bind(this)}
-          value={this.state.feedback}
-          style={{ width: "100%"}}
+          value={this.state.input.comment}
+          style={{ width: "100%",marginLeft:8}}
         />
                  <div >{this.state.errors.comment}</div>
           </Grid>
