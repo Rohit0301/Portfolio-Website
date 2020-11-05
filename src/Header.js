@@ -2,7 +2,6 @@ import React from 'react';
 import classes from './Header.module.css';
 import back from './assets/background.jpg';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Button,row,col } from 'react-bootstrap';
 import Grid from '@material-ui/core/Grid';
 import {Section} from 'react-scroll-section';
 

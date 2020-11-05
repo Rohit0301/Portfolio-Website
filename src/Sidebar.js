@@ -1,16 +1,14 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import classes from './Sidebar.module.css';
-import edu from './Education';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Link, animateScroll as scroll } from "react-scroll";
 import { Button,row,col } from 'react-bootstrap';
 import Grid from '@material-ui/core/Grid';
-import Img from './assets/myImageS.jpeg';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import InstagramIcon from '@material-ui/icons/Instagram';
-import { scroller } from "react-scroll";
+
 
 const Sidebar = () =>{
  
