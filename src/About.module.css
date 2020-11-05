@@ -28,6 +28,7 @@
 @media (min-width: 600px) {
     .head h1{
         color: rgb(224, 217, 217);
+        font-size:68px;
     }
     
     .head h3{
