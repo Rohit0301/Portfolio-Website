@@ -3,7 +3,7 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import classes from './Services.module.css';
 import LinearProgress from '@material-ui/core/LinearProgress';
-import { makeStyles, withStyles } from '@material-ui/core/styles';
+import {  withStyles } from '@material-ui/core/styles';
 import { Section } from 'react-scroll-section';
 const BorderLinearProgress = withStyles((theme) => ({
   root: {

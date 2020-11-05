@@ -2,7 +2,6 @@ import React from 'react';
 import classes from './Sidebar.module.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Link, animateScroll as scroll } from "react-scroll";
-import { Button,row,col } from 'react-bootstrap';
 import Grid from '@material-ui/core/Grid';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
