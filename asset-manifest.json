@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.ea7d3e36.chunk.css",
+    "main.css": "/Portfolio-Website/static/css/main.5d387d39.chunk.css",
     "main.js": "/Portfolio-Website/static/js/main.bc14817d.chunk.js",
     "main.js.map": "/Portfolio-Website/static/js/main.bc14817d.chunk.js.map",
     "runtime-main.js": "/Portfolio-Website/static/js/runtime-main.5346590d.js",
@@ -12,7 +12,7 @@
     "static/js/3.20d14edf.chunk.js.map": "/Portfolio-Website/static/js/3.20d14edf.chunk.js.map",
     "index.html": "/Portfolio-Website/index.html",
     "static/css/2.25074d1b.chunk.css.map": "/Portfolio-Website/static/css/2.25074d1b.chunk.css.map",
-    "static/css/main.ea7d3e36.chunk.css.map": "/Portfolio-Website/static/css/main.ea7d3e36.chunk.css.map",
+    "static/css/main.5d387d39.chunk.css.map": "/Portfolio-Website/static/css/main.5d387d39.chunk.css.map",
     "static/js/2.8d1bad9f.chunk.js.LICENSE.txt": "/Portfolio-Website/static/js/2.8d1bad9f.chunk.js.LICENSE.txt",
     "static/media/background.69ce88fc.jpg": "/Portfolio-Website/static/media/background.69ce88fc.jpg",
     "static/media/Education.module.css": "/Portfolio-Website/static/media/oriental.8d8f53b7.jpg"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.5346590d.js",
     "static/css/2.25074d1b.chunk.css",
     "static/js/2.8d1bad9f.chunk.js",
-    "static/css/main.ea7d3e36.chunk.css",
+    "static/css/main.5d387d39.chunk.css",
     "static/js/main.bc14817d.chunk.js"
   ]
 }
