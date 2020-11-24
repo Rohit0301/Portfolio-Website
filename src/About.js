@@ -20,7 +20,7 @@ const About = () =>{
                  <h4> Competitive Programming Lead at DSC OIST,Bhopal | 
                  Demonstrated working knowledge of Object-Oriented Design/Analysis and web development | 
                  Develop and debug source code | Great understanding of Data Structures and Algorithms |
-                 deep logic building and problem solving skills | sufficient knowledge about OS and DBMS concept | 1759 rated coder on codechef | had cleared 
+                 deep logic building and problem solving skills | sufficient knowledge about OS and DBMS concept | 1843 rated coder on codechef | had cleared 
                  1st round of TCS codevita and Facebook Hacker Cup</h4>
 
              </div>

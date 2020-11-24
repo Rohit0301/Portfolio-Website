@@ -16,7 +16,7 @@ const Header = () =>{
                         <h3>Welcome</h3>
                         <h1>I'm Rohit Jain</h1>
                         <h5>Web developer/Competitive Programmer</h5>
-                        <h5>1759 ratings on codechef</h5>
+                        <h5>1843 ratings on codechef</h5>
                   </Grid>
                   </Grid>
               </Grid>
